@@ -4,8 +4,8 @@ An Anki add-on, based on the <a href="https://ankiweb.net/shared/info/1967553085
 
 The add-on crawls Weblio's Korean-Japanese dictionary and scrapes each translation. As 개 could mean either dog, or be used as a particular counter, the field containing the Japanese definitions will look like this:
 
-(1) 犬
-(2) 個 
+* (1) 犬
+* (2) 個 
 
 <b>Requirements</b>
 
@@ -16,7 +16,7 @@ The add-on requires two fields:
 <li><b>Japanese</b>: the field that'll contain the Japanese translations.</li>
 </ul>
 
-These names can be changed to your liking by opening the <i><a href="http://JapaneseDefinitionsKoreanVoc.py" rel="nofollow">JapaneseDefinitionsKoreanVoc.py</a></i> file with a text-editor and editting <code>expressionField = 'Korean'</code> and <code>jap_transField = 'Japanese'</code>. The file can be found in your anki add-ons folder.
+These names can be changed to your liking by opening the <i>JapaneseDefinitionsKoreanVoc.py</i> file with a text-editor and editting <code>expressionField = 'Korean'</code> and <code>jap_transField = 'Japanese'</code>. The file can be found in your anki add-ons folder.
 
 <b>Usage</b>
 
